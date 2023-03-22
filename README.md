@@ -1,15 +1,22 @@
-# 07.PJIND-MOD4-ModeloFisicoBD
+# Projeto Resília - Individual módulo 4
+
+O proposta do projeto foi desenvolver um modelo físico de Banco de dados para representar um sistema de acompanhamento que irão ajudar ao Resília.
 
 ![BD-fisico](https://user-images.githubusercontent.com/26255727/226489679-27ec8abb-17de-41e3-b9ba-dab4c8033dc8.png)
 
-## Existem outras entidades além dessas três?
+## Algumas perguntas:
 
-Sim, no modelo físico que desenvolvi existem outras 3 que achei necessariamente utilizalas como, endereços e matriculas (utilizadas tanto para alunos e professores) e também tabela de cursos.
+### Existem outras entidades além dessas três?
 
-## Quais são os principais campos e tipos?
+• Sim, no modelo físico que desenvolvi existem outras 3 que achei necessariamente utilizalas como, endereços e matriculas (utilizadas tanto para alunos e professores) e também tabela de cursos.
 
-referente ao campo endereço o campo mais importande talvez seja CEP de tipo inteiro, matricula todos os campos são importande como certificado e historico escolar, todos de tipos varchar.
+### Quais são os principais campos e tipos?
 
-## Como essas entidades estão relacionadas?
+• referente ao campo endereço o campo mais importande talvez seja CEP de tipo inteiro, matricula todos os campos são importande como certificado e historico escolar, todos de tipos varchar.
 
-As entidades matricula e endereco estão ralacionandas no tipo 1:1 e cursos tem relacionamentos 1:n com professores e 1:1 com turma.
+### Como essas entidades estão relacionadas?
+
+• As entidades matricula e endereco estão ralacionandas no tipo 1:1 e cursos tem relacionamentos 1:n com professores e 1:1 com turma.
+
+
+Criado por Kaio Melo  🚀
